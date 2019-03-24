@@ -79,10 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'CONN_MAX_AGE': None,
-        'NAME': 'beresoon',
-        'USER': 'ber_admin',
-        'PASSWORD': "m'N(a&dLNV*bsV6",
-        'HOST': 'beresoon.cvrefir67uo3.eu-west-3.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
+
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES', innodb_strict_mode=1",
